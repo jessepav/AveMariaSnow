@@ -1,0 +1,24 @@
+# num_backgrounds=2
+# transition_duration=1
+# 
+# image1=resources/CeciliaCheung.jpg
+# duration1=10
+# kenburns1=320,243,-1.9
+# 
+# image2=resources/CeciliaCheung.jpg
+# duration2=10
+# kenburns2=320,243,1.9
+# snowflake_alpha2=0.0,0.1
+# 
+# 
+num_backgrounds=1
+transition_duration=10
+
+image1=resources/background.jpg
+duration1=10
+kenburns1=630,550,-1.9
+
+image2=resources/background.jpg
+duration2=10
+kenburns2=630,550,1.9
+snowflake_alpha2=0.0,0.1

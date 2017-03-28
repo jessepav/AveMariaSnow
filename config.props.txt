@@ -1,0 +1,58 @@
+# 0 for windowed mode, 1 for fullscreen
+fullscreen=1
+# Resolution of the program.
+resolution=800,600
+# The paths to the background image, and the image for the snowflake, which should really be
+# a PNG with transparency, unless you want ugly graphics.
+#		OR
+# If the background_url ends with ".txt" it will be interpreted as a "background list".
+# See the file "background-list.txt" for details.
+# background_url=resources/background.jpg
+background_url=snowlist.txt
+flake_url=resources/flake.png
+# The path to any Ogg file as background music. You can use the special name "none" (no quotes)
+# to disable background music.
+# To convert an MP3 to an Ogg file, I recommend the free program Audacity.
+song_url=resources/song.ogg
+#song_url=none
+# This is the number of seconds the animation will run before exiting.
+# It doesn't necessarily have to be the length of the song.
+song_length=385
+# Number of seconds before beginning the fade-in.
+fadein_start=1
+# Duration of the fade-in
+fadein_duration=1
+# Number of seconds before fade-out
+fadeout_start=300
+# Duration of fade-out.
+fadeout_duration=50
+# Text shown during startup resource loading.
+intro_text=Wait for the snowcloud high above...
+# How long should the introductory text be displayed (in seconds)
+intro_duration=1
+# How many snowflakes?
+num_flakes=800
+
+# These next entries are given as ranges from which the program will
+# choose a value at random.
+
+# How big each flake is.
+snowflake_scale=0.1,0.4
+# The transparency level.
+snowflake_alpha=0.5,1.0
+# How quickly they descend.
+snowflake_speed=0.2,1.0
+# How quickly they rotation.
+snowflake_rotation=0.2,2.0
+# The amplitude of wind gusts.
+gust_strength=0.2,0.6
+# How long wind keeps blowing
+gust_duration=5.0,10.0
+# The number of seconds between each dimming effect.
+dimming_period=40,90
+# The number of seconds between new wind gusts.
+gusting_period=12,20
+# We can keep the snowflakes visible even when the scene fades out by specifying the minimum translucence.
+min_flake_alpha=0.2
+
+# :mode=properties:
